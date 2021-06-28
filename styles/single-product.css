@@ -1,0 +1,207 @@
+.content-area {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.woocommerce-product-gallery {
+    opacity: 1 !important;
+    padding: 3rem;
+}
+
+
+.summary h1 {
+    text-transform: capitalize;
+    letter-spacing: 1.3px;
+    color: #222222;
+}
+
+.summary .price {
+    background-color: #dfdcde;
+    border: 10px 10px 0 0;
+    color: #222222 !important;
+    font-size: 3.5rem !important;
+    padding: 1.5rem;
+}
+
+.woocommerce-product-details__short-description {
+    color: #736b6f;
+    letter-spacing: 1.3px;
+    padding: 3rem 0;
+}
+
+.summary .cart {
+    display: flex;
+    border: 1px solid #dfdcde;
+    border-radius: 0 0 10px 10px;
+    justify-content: flex-start;
+    padding: 4rem;
+    align-items: center;
+}
+
+.summary .quantity input {
+    padding: 0.9rem 0;
+    border: 1px solid #dfdcde;
+    outline: none;
+}
+
+.summary button {
+    background-color: rgb(233, 92, 92) !important;
+    color: rgb(238, 236, 236);
+    border-radius: 20px;
+    padding: 1rem 5rem;
+    margin: 1rem 0;
+    letter-spacing: 1.3px;
+}
+
+.summary .button:hover {
+    background-color: #790909 !important; 
+    color: #dfdcde;
+}
+
+.product_meta {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_meta a {
+    color: #222222;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.product_meta span {
+    color: #736b6f;
+}
+
+.product_meta a:hover {
+    color: #222222;
+    text-decoration: underline;
+    line-height: 1.4;
+}
+
+#tab-description p {
+    color: #736b6f !important;
+}
+
+.woocommerce-tabs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.woocommerce-tabs ul {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #d3ced2;
+    padding: 1.5rem 0;
+    justify-content: space-around;
+}
+
+.commentlist {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment_container {
+    width: 100%;
+}
+
+.comment-text {
+    text-align: start;
+}
+
+#comments ol {
+    display: flex;
+    padding: 4rem 0;
+}
+
+#comments ol li {
+    margin-right: 2rem !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    background-color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    padding: 1.5rem 0;
+
+
+}
+
+#tab-reviews {
+    width: 100%;
+}
+
+#tab-description {
+    letter-spacing: 2.5px;
+}
+
+#tab-description h2 {
+    margin-left: 2rem;
+}
+
+#tab-description p {
+    padding: 2rem;
+    line-height: 1.6;
+}
+
+.woocommerce-Reviews-title {
+    font-weight: 300;
+    font-size: 3.1rem;
+    letter-spacing: 1.5px;
+    padding: 1.5rem 0;
+}
+
+.comment-form-comment {
+    display: flex;
+}
+
+#commentform {
+    margin-top: 4rem;
+}
+
+#commentform label {
+    font-weight: 700;
+}
+
+#review_form_wrapper {
+    color: #515151;
+    letter-spacing: 1.5px;
+    line-height: 1.6;
+    padding: 2rem 0;
+}
+
+.comment-form-rating {
+    margin-bottom: 1.5rem;
+}
+
+#rating {
+    margin-left: 8rem;
+}
+
+.comment-form-comment textarea {
+    background-color: #ebe9eb;
+    border: none;
+    margin-left: 10rem;
+}
+
+.form-submit input {
+    background-color: rgb(233, 92, 92) !important;
+    color: rgb(238, 236, 236) !important;
+    border-radius: 20px;
+    padding: 1rem 5rem;
+    margin: 1rem 0;
+    letter-spacing: 1.3px;
+}
+
+.up-sells {
+    display: flex !important;
+    flex-direction: column;
+}
+
+.related {
+    display: flex !important;
+    flex-direction: column;
+} 

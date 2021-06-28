@@ -1,0 +1,234 @@
+/*
+Theme Name: Fancy Shop
+Author: Martin
+*/
+
+@import './styles/footer.css';
+@import './styles/single-product.css';
+@import './styles/front-page.css';
+@import './styles/modules/carousel.css';
+@import './styles/modules/my-account.css';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    margin: 0;
+    margin-top: 0 !important;
+}
+
+body {
+    font-weight: 300;
+    font-size: inherit;
+    font-family: "Montserrat", sans-serif;;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+}
+
+.search form {
+    display: flex;
+    width: 80%;
+    margin-left: 13rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+}
+
+.search input  {
+    border: none;
+    outline: #dfdcde;
+    padding: 2.5rem;
+    font-family: inherit;
+    font-size: 2.4rem;
+    width: 100%;
+    margin-right: .5rem;
+    letter-spacing: 1.3px;
+}
+
+.search input:focus {
+    border: 1px solid #dfdcde;
+
+}
+
+.search-submit{
+    width: 4%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+
+}
+
+.top-bar {
+    background-color: #790909;
+    height: 20vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #dfdcde;
+    align-items: center;
+}
+
+.top-bar img{
+    width: 8%;
+}
+
+.navigation {
+    width: 40%;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #dfdcde;
+    font-size: 2rem;
+    letter-spacing: 1.3px;
+    text-transform: capitalize;
+}
+
+.brand {
+    display: flex;
+    font-size: 4rem;
+    min-width: 25%;
+    align-items: center;
+}
+
+.brand img {
+    min-width: 100%;
+}
+
+.brand-img {
+    min-width: 30%;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: .5fr 4fr .5fr;
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.content {
+    grid-column: 2;
+    grid-row: 2;
+    display: grid;
+}
+
+.products {
+    grid-template-columns: repeat(auto-fill,  minmax(24rem, 1fr));
+    display: grid;
+    grid-gap: 3rem;
+    grid-row: 1;
+    grid-column: 1;
+
+}
+
+.woocommerce ul.products::before {
+    content: inherit !important;
+}
+
+.products li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.2px;
+    position: relative;
+    min-width: 100% ;
+    min-height: 50rem;
+    background-color: #1c1a1a0f;
+    box-shadow: 0 1rem 1rem #bdb7ba;
+    
+}
+
+
+
+.products li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #736b6f;
+}
+
+.products li img {
+    padding: 1.5rem;
+    height: 31rem !important;
+
+}
+
+.products li .onsale {
+    background-color: rgb(233, 92, 92) !important;
+}
+
+.products li .price {
+    font-size: 1.6rem !important;
+    color: #736b6f !important;
+}
+
+.products li .product {
+    min-height: 30rem !important;
+}
+
+.products li h2 {
+   color: #736b6f;
+   font-size: 2rem !important;
+   letter-spacing: 1.2px;
+   text-transform: capitalize;
+   font-weight: 300;
+}
+
+.cg-author {
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+ 
+.products li .button {
+    background-color: #e95c5c;
+    color: rgb(238, 236, 236);
+    border-radius: 20px;
+    padding: 1rem 5rem;
+    margin: 1rem 0;
+    letter-spacing: 1.3px;
+    position: absolute;
+    bottom: 1.5rem;
+    
+}
+
+.post-content li .button:hover {
+    background-color: #790909 !important;
+    color: #dfdcde;
+}
+
+.woocommerce-pagination ul {
+    width: 20%;
+    display: flex !important;
+}
+
+.page-numbers {
+    justify-content: flex-start;
+}
+
+
+
+@media screen and (max-width: 901px) {
+    html {
+        font-size: 50%;
+    }
+}
